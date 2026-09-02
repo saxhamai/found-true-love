@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two faces smiling at each other">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="72" cy="100" r="30" fill="#FFFFFF" stroke="#FFB3C6" stroke-width="4"/>
+  <path d="M60 108c4 6 20 6 24 0" stroke="#E6396F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="64" cy="92" r="3.5" fill="#E6396F"/>
+  <circle cx="82" cy="92" r="3.5" fill="#E6396F"/>
+  <circle cx="128" cy="100" r="30" fill="#FFFFFF" stroke="#E6396F" stroke-width="4"/>
+  <path d="M116 108c4 6 20 6 24 0" stroke="#E6396F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="120" cy="92" r="3.5" fill="#E6396F"/>
+  <circle cx="138" cy="92" r="3.5" fill="#E6396F"/>
+  <path d="M100 60c-4-5-12-3-12 2 0 6 8 10 12 13 4-3 12-7 12-13 0-5-8-7-12-2z" fill="#F5B301"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two figures sitting together under stars">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="150" cy="52" r="3" fill="#F5B301"/>
+  <circle cx="130" cy="40" r="2" fill="#F5B301"/>
+  <circle cx="60" cy="46" r="2.5" fill="#F5B301"/>
+  <path d="M40 150c14-18 30-24 60-24s46 6 60 24" fill="none" stroke="#FFB3C6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="112" r="14" fill="#FFB3C6"/>
+  <path d="M62 150c2-16 10-26 18-26s16 10 18 26z" fill="#FFB3C6"/>
+  <circle cx="120" cy="112" r="14" fill="#E6396F"/>
+  <path d="M102 150c2-16 10-26 18-26s16 10 18 26z" fill="#E6396F"/>
+  <path d="M100 96c-4-5-12-3-12 2 0 6 8 10 12 13 4-3 12-7 12-13 0-5-8-7-12-2z" fill="#F5B301"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A phone glowing with a heart notification">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <rect x="68" y="46" width="64" height="108" rx="16" fill="#FFFFFF" stroke="#E6396F" stroke-width="4"/>
+  <rect x="78" y="60" width="44" height="66" rx="8" fill="#FFF0F4"/>
+  <circle cx="100" cy="140" r="5" fill="#E6396F"/>
+  <path d="M100 78c-8-10-24-6-24 5 0 12 16 20 24 27 8-7 24-15 24-27 0-11-16-15-24-5z" fill="#E6396F"/>
+  <circle cx="140" cy="56" r="4" fill="#F5B301"/>
+  <circle cx="150" cy="70" r="2.5" fill="#F5B301"/>
+  <circle cx="56" cy="150" r="3" fill="#F5B301"/>
+</svg>

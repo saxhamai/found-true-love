@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A thought bubble with a heart inside">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="88" cy="118" r="26" fill="#FFFFFF" stroke="#E6396F" stroke-width="4"/>
+  <circle cx="122" cy="86" r="8" fill="#FFFFFF" stroke="#E6396F" stroke-width="3"/>
+  <circle cx="136" cy="70" r="4" fill="#FFFFFF" stroke="#E6396F" stroke-width="2.5"/>
+  <path d="M88 108c-6-7-18-4-18 4 0 9 12 15 18 20 6-5 18-11 18-20 0-8-12-11-18-4z" fill="#E6396F"/>
+</svg>

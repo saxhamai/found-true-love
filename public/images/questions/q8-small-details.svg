@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A sparkle highlighting a small remembered detail">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="92" cy="92" r="30" fill="#FFFFFF" stroke="#E6396F" stroke-width="5"/>
+  <path d="M114 114l24 24" stroke="#E6396F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M92 78c-5-6-15-3-15 3 0 7 10 11 15 16 5-5 15-9 15-16 0-6-10-9-15-3z" fill="#FFB3C6"/>
+  <path d="M148 60l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#F5B301"/>
+</svg>

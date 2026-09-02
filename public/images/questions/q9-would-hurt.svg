@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An empty chair beside a full one">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <path d="M60 60l6 40h34l6-40" fill="none" stroke="#D9D9D9" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M56 100h50v10H56z" fill="#D9D9D9"/>
+  <path d="M60 110l-4 34m48-34l4 34" stroke="#D9D9D9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 60l6 40h34l6-40" fill="none" stroke="#E6396F" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M116 100h50v10h-50z" fill="#FFB3C6"/>
+  <path d="M120 110l-4 34m48-34l4 34" stroke="#E6396F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M143 78c-4-5-12-3-12 2 0 6 8 10 12 13 4-3 12-7 12-13 0-5-8-7-12-2z" fill="#E6396F"/>
+</svg>

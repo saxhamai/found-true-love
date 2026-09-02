@@ -1,0 +1,9 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two silhouettes meeting quietly">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="76" cy="86" r="16" fill="#FFB3C6"/>
+  <path d="M50 138c2-20 16-32 26-32s24 12 26 32z" fill="#FFB3C6"/>
+  <circle cx="124" cy="86" r="16" fill="#E6396F"/>
+  <path d="M98 138c2-20 16-32 26-32s24 12 26 32z" fill="#E6396F"/>
+  <path d="M92 108c3-6 13-6 16 0-3 5-13 5-16 0z" fill="#F5B301"/>
+  <circle cx="100" cy="50" r="4" fill="#F5B301"/>
+</svg>

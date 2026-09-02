@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A figure looking away, feeling left out">
+  <circle cx="100" cy="100" r="92" fill="#FFE7EE"/>
+  <circle cx="128" cy="80" r="14" fill="#FFB3C6"/>
+  <path d="M106 128c2-18 12-28 22-28s20 10 22 28z" fill="#FFB3C6"/>
+  <circle cx="164" cy="80" r="14" fill="#E6396F"/>
+  <path d="M142 128c2-18 12-28 22-28s20 10 22 28z" fill="#E6396F"/>
+  <circle cx="52" cy="108" r="13" fill="#D9D9D9"/>
+  <path d="M32 150c2-16 11-25 20-25s18 9 20 25z" fill="#D9D9D9"/>
+  <path d="M148 100c3-5 11-5 14 0-3 4-11 4-14 0z" fill="#F5B301"/>
+  <path d="M46 88l4-8m6 8l-4-8" stroke="#B3B3B3" stroke-width="3" stroke-linecap="round"/>
+</svg>
