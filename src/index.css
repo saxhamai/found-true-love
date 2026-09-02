@@ -1,0 +1,123 @@
+/* ============================================================
+   Found True Love — design tokens
+   Palette: warm blush background, rose primary, petal-pink tint,
+   ink text, a restrained gold accent used only for the pulse/sparkle
+   signature moments (progress heartbeat, small highlights).
+   Type: Fraunces (display, warm + a little quirky at high optical size)
+   paired with Plus Jakarta Sans (body/UI, humanist and calm).
+   ============================================================ */
+
+:root {
+  --color-bg: #fff7f8;
+  --color-primary: #e6396f;
+  --color-primary-dark: #c22c5c;
+  --color-primary-soft: #fde4ea;
+  --color-ink: #252525;
+  --color-ink-soft: #7a7176;
+  --color-petal: #ffb3c6;
+  --color-white: #ffffff;
+  --color-gold: #f5b301;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 24px 48px -20px rgba(230, 57, 111, 0.28);
+  --shadow-card: 0 10px 30px -12px rgba(37, 37, 37, 0.12);
+
+  --stage-max-width: 480px;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  margin: 0;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Visible keyboard focus everywhere — never suppressed */
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+::selection {
+  background: var(--color-petal);
+  color: var(--color-ink);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
