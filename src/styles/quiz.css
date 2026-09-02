@@ -1,0 +1,178 @@
+.quiz-page {
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.quiz-page__top {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.quiz-page__back {
+  align-self: flex-start;
+  padding-left: 4px;
+}
+
+.quiz-page__back--hidden {
+  visibility: hidden;
+}
+
+/* ---------- Progress (signature heartbeat pulse) ---------- */
+.progress {
+  flex: 1;
+}
+
+.progress__pulse {
+  position: relative;
+  height: 34px;
+}
+
+.progress__svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.progress__track {
+  fill: none;
+  stroke: var(--color-primary-soft);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.progress__fill {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dashoffset 0.45s ease;
+}
+
+.progress__heart {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%);
+  font-size: 0.95rem;
+  transition: left 0.45s ease;
+  filter: drop-shadow(0 2px 3px rgba(230, 57, 111, 0.35));
+}
+
+.progress__label {
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+/* ---------- Question card ---------- */
+.question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  animation: fadeSlideIn 0.32s ease;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.question-card__image-wrap {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--color-primary-soft);
+}
+
+.question-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.question-card__text {
+  font-size: 1.32rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  line-height: 1.35;
+  padding: 0 4px;
+}
+
+.answer-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.answer-btn {
+  appearance: none;
+  cursor: pointer;
+  width: 100%;
+  min-height: 56px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.02rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid transparent;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  transition: transform 0.12s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.answer-btn:active {
+  transform: scale(0.98);
+}
+
+.answer-btn--yes:hover {
+  border-color: var(--color-primary);
+}
+
+.answer-btn--maybe:hover {
+  border-color: var(--color-gold);
+}
+
+.answer-btn--no:hover {
+  border-color: var(--color-ink-soft);
+}
+
+.answer-btn--selected.answer-btn--yes {
+  background: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: var(--shadow-soft);
+}
+
+.answer-btn--selected.answer-btn--maybe {
+  background: var(--color-gold);
+  color: var(--color-white);
+  box-shadow: 0 16px 30px -14px rgba(245, 179, 1, 0.45);
+}
+
+.answer-btn--selected.answer-btn--no {
+  background: var(--color-ink);
+  color: var(--color-white);
+}
+
+.answer-btn__icon {
+  font-size: 1.1rem;
+}
